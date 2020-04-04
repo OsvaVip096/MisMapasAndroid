@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Satellite"
+        android:title="Satellite"></item>
+
+    <item
+        android:id="@+id/Normal"
+        android:title="Normal"></item>
+    <item
+        android:id="@+id/Hybrid"
+        android:title="Hybrid"></item>
+    <item
+        android:id="@+id/Terrain"
+        android:title="Terrain"></item>
+    <item
+        android:id="@+id/None"
+        android:title="None"></item>
+    <item
+        android:id="@+id/Traffic"
+        android:checkable="true"
+        android:enabled="true"
+        android:title="Traffic"></item>
+    <item
+        android:id="@+id/MyLocation"
+        android:checkable="true"
+        android:enabled="true"
+        android:title="My Location en el mapa"></item>
+    <item
+        android:id="@+id/Buildings"
+        android:checkable="true"
+        android:checked="true"
+        android:enabled="true"
+        android:title="Buildings"></item>
+    <item
+        android:id="@+id/indoor"
+        android:checkable="true"
+        android:checked="true"
+        android:enabled="true"
+        android:title="Indor"></item>
+
+    <item
+        android:id="@+id/Polilinear"
+        android:title="Mapas con polilineas"></item>
+
+</menu>
